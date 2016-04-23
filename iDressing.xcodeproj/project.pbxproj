@@ -1,0 +1,587 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		CC24F58D1CC9CA0500B024AF /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = CC24F58C1CC9CA0500B024AF /* main.m */; };
+		CC24F5901CC9CA0500B024AF /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = CC24F58F1CC9CA0500B024AF /* AppDelegate.m */; };
+		CC24F5961CC9CA0500B024AF /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = CC24F5941CC9CA0500B024AF /* Main.storyboard */; };
+		CC24F5981CC9CA0500B024AF /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = CC24F5971CC9CA0500B024AF /* Assets.xcassets */; };
+		CC24F59B1CC9CA0500B024AF /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = CC24F5991CC9CA0500B024AF /* LaunchScreen.storyboard */; };
+		CC24F5D51CC9CB9100B024AF /* RAMBounceAnimation.swift in Sources */ = {isa = PBXBuildFile; fileRef = CC24F5C81CC9CB9100B024AF /* RAMBounceAnimation.swift */; };
+		CC24F5D61CC9CB9100B024AF /* RAMFrameItemAnimation.swift in Sources */ = {isa = PBXBuildFile; fileRef = CC24F5CA1CC9CB9100B024AF /* RAMFrameItemAnimation.swift */; };
+		CC24F5D71CC9CB9100B024AF /* RAMFumeAnimation.swift in Sources */ = {isa = PBXBuildFile; fileRef = CC24F5CC1CC9CB9100B024AF /* RAMFumeAnimation.swift */; };
+		CC24F5D81CC9CB9100B024AF /* RAMRotationAnimation.swift in Sources */ = {isa = PBXBuildFile; fileRef = CC24F5CE1CC9CB9100B024AF /* RAMRotationAnimation.swift */; };
+		CC24F5D91CC9CB9100B024AF /* RAMTransitionItemAnimations.swift in Sources */ = {isa = PBXBuildFile; fileRef = CC24F5D01CC9CB9100B024AF /* RAMTransitionItemAnimations.swift */; };
+		CC24F5DA1CC9CB9100B024AF /* RAMAnimatedTabBarController.swift in Sources */ = {isa = PBXBuildFile; fileRef = CC24F5D11CC9CB9100B024AF /* RAMAnimatedTabBarController.swift */; };
+		CC24F5DB1CC9CB9100B024AF /* RAMBadge.swift in Sources */ = {isa = PBXBuildFile; fileRef = CC24F5D31CC9CB9100B024AF /* RAMBadge.swift */; };
+		CC24F5DC1CC9CB9100B024AF /* RAMItemAnimationProtocol.swift in Sources */ = {isa = PBXBuildFile; fileRef = CC24F5D41CC9CB9100B024AF /* RAMItemAnimationProtocol.swift */; };
+		CC24F6061CC9D18E00B024AF /* SingleViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = CC24F6051CC9D18E00B024AF /* SingleViewController.m */; };
+		CC24F6091CC9D1BC00B024AF /* MatchViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = CC24F6081CC9D1BC00B024AF /* MatchViewController.m */; };
+		CC24F60C1CC9D1E500B024AF /* HomePageViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = CC24F60B1CC9D1E500B024AF /* HomePageViewController.m */; };
+		CC24F60F1CC9D1F500B024AF /* MineViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = CC24F60E1CC9D1F500B024AF /* MineViewController.m */; };
+		CC24F6121CC9D20400B024AF /* SchoolViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = CC24F6111CC9D20400B024AF /* SchoolViewController.m */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		CC24F5881CC9CA0500B024AF /* iDressing.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = iDressing.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		CC24F58C1CC9CA0500B024AF /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		CC24F58E1CC9CA0500B024AF /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		CC24F58F1CC9CA0500B024AF /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		CC24F5951CC9CA0500B024AF /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		CC24F5971CC9CA0500B024AF /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		CC24F59A1CC9CA0500B024AF /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		CC24F59C1CC9CA0500B024AF /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		CC24F5C81CC9CB9100B024AF /* RAMBounceAnimation.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = RAMBounceAnimation.swift; sourceTree = "<group>"; };
+		CC24F5CA1CC9CB9100B024AF /* RAMFrameItemAnimation.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = RAMFrameItemAnimation.swift; sourceTree = "<group>"; };
+		CC24F5CC1CC9CB9100B024AF /* RAMFumeAnimation.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = RAMFumeAnimation.swift; sourceTree = "<group>"; };
+		CC24F5CE1CC9CB9100B024AF /* RAMRotationAnimation.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = RAMRotationAnimation.swift; sourceTree = "<group>"; };
+		CC24F5D01CC9CB9100B024AF /* RAMTransitionItemAnimations.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = RAMTransitionItemAnimations.swift; sourceTree = "<group>"; };
+		CC24F5D11CC9CB9100B024AF /* RAMAnimatedTabBarController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = RAMAnimatedTabBarController.swift; sourceTree = "<group>"; };
+		CC24F5D31CC9CB9100B024AF /* RAMBadge.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = RAMBadge.swift; sourceTree = "<group>"; };
+		CC24F5D41CC9CB9100B024AF /* RAMItemAnimationProtocol.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = RAMItemAnimationProtocol.swift; sourceTree = "<group>"; };
+		CC24F6041CC9D18E00B024AF /* SingleViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SingleViewController.h; sourceTree = "<group>"; };
+		CC24F6051CC9D18E00B024AF /* SingleViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SingleViewController.m; sourceTree = "<group>"; };
+		CC24F6071CC9D1BC00B024AF /* MatchViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MatchViewController.h; sourceTree = "<group>"; };
+		CC24F6081CC9D1BC00B024AF /* MatchViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MatchViewController.m; sourceTree = "<group>"; };
+		CC24F60A1CC9D1E500B024AF /* HomePageViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = HomePageViewController.h; sourceTree = "<group>"; };
+		CC24F60B1CC9D1E500B024AF /* HomePageViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = HomePageViewController.m; sourceTree = "<group>"; };
+		CC24F60D1CC9D1F500B024AF /* MineViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MineViewController.h; sourceTree = "<group>"; };
+		CC24F60E1CC9D1F500B024AF /* MineViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MineViewController.m; sourceTree = "<group>"; };
+		CC24F6101CC9D20400B024AF /* SchoolViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SchoolViewController.h; sourceTree = "<group>"; };
+		CC24F6111CC9D20400B024AF /* SchoolViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SchoolViewController.m; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		CC24F5851CC9CA0500B024AF /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		CC24F57F1CC9CA0500B024AF = {
+			isa = PBXGroup;
+			children = (
+				CC24F58A1CC9CA0500B024AF /* iDressing */,
+				CC24F5891CC9CA0500B024AF /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		CC24F5891CC9CA0500B024AF /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				CC24F5881CC9CA0500B024AF /* iDressing.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		CC24F58A1CC9CA0500B024AF /* iDressing */ = {
+			isa = PBXGroup;
+			children = (
+				CC24F5DD1CC9D0AB00B024AF /* 搭配 */,
+				CC24F5DE1CC9D0AB00B024AF /* 单品 */,
+				CC24F5DF1CC9D0AB00B024AF /* 首页 */,
+				CC24F5E01CC9D0AB00B024AF /* 我的 */,
+				CC24F5E11CC9D0AB00B024AF /* 学堂 */,
+				CC24F5C51CC9CB9100B024AF /* RAMAnimatedTabBarController */,
+				CC24F58E1CC9CA0500B024AF /* AppDelegate.h */,
+				CC24F58F1CC9CA0500B024AF /* AppDelegate.m */,
+				CC24F5941CC9CA0500B024AF /* Main.storyboard */,
+				CC24F5971CC9CA0500B024AF /* Assets.xcassets */,
+				CC24F5991CC9CA0500B024AF /* LaunchScreen.storyboard */,
+				CC24F59C1CC9CA0500B024AF /* Info.plist */,
+				CC24F58B1CC9CA0500B024AF /* Supporting Files */,
+			);
+			path = iDressing;
+			sourceTree = "<group>";
+		};
+		CC24F58B1CC9CA0500B024AF /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				CC24F58C1CC9CA0500B024AF /* main.m */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		CC24F5C51CC9CB9100B024AF /* RAMAnimatedTabBarController */ = {
+			isa = PBXGroup;
+			children = (
+				CC24F5C61CC9CB9100B024AF /* Animations */,
+				CC24F5D11CC9CB9100B024AF /* RAMAnimatedTabBarController.swift */,
+				CC24F5D21CC9CB9100B024AF /* RAMBadge */,
+				CC24F5D41CC9CB9100B024AF /* RAMItemAnimationProtocol.swift */,
+			);
+			path = RAMAnimatedTabBarController;
+			sourceTree = "<group>";
+		};
+		CC24F5C61CC9CB9100B024AF /* Animations */ = {
+			isa = PBXGroup;
+			children = (
+				CC24F5C71CC9CB9100B024AF /* BounceAnimation */,
+				CC24F5C91CC9CB9100B024AF /* FrameAnimation */,
+				CC24F5CB1CC9CB9100B024AF /* FumeAnimation */,
+				CC24F5CD1CC9CB9100B024AF /* RotationAnimation */,
+				CC24F5CF1CC9CB9100B024AF /* TransitionAniamtions */,
+			);
+			path = Animations;
+			sourceTree = "<group>";
+		};
+		CC24F5C71CC9CB9100B024AF /* BounceAnimation */ = {
+			isa = PBXGroup;
+			children = (
+				CC24F5C81CC9CB9100B024AF /* RAMBounceAnimation.swift */,
+			);
+			path = BounceAnimation;
+			sourceTree = "<group>";
+		};
+		CC24F5C91CC9CB9100B024AF /* FrameAnimation */ = {
+			isa = PBXGroup;
+			children = (
+				CC24F5CA1CC9CB9100B024AF /* RAMFrameItemAnimation.swift */,
+			);
+			path = FrameAnimation;
+			sourceTree = "<group>";
+		};
+		CC24F5CB1CC9CB9100B024AF /* FumeAnimation */ = {
+			isa = PBXGroup;
+			children = (
+				CC24F5CC1CC9CB9100B024AF /* RAMFumeAnimation.swift */,
+			);
+			path = FumeAnimation;
+			sourceTree = "<group>";
+		};
+		CC24F5CD1CC9CB9100B024AF /* RotationAnimation */ = {
+			isa = PBXGroup;
+			children = (
+				CC24F5CE1CC9CB9100B024AF /* RAMRotationAnimation.swift */,
+			);
+			path = RotationAnimation;
+			sourceTree = "<group>";
+		};
+		CC24F5CF1CC9CB9100B024AF /* TransitionAniamtions */ = {
+			isa = PBXGroup;
+			children = (
+				CC24F5D01CC9CB9100B024AF /* RAMTransitionItemAnimations.swift */,
+			);
+			path = TransitionAniamtions;
+			sourceTree = "<group>";
+		};
+		CC24F5D21CC9CB9100B024AF /* RAMBadge */ = {
+			isa = PBXGroup;
+			children = (
+				CC24F5D31CC9CB9100B024AF /* RAMBadge.swift */,
+			);
+			path = RAMBadge;
+			sourceTree = "<group>";
+		};
+		CC24F5DD1CC9D0AB00B024AF /* 搭配 */ = {
+			isa = PBXGroup;
+			children = (
+				CC24F5E61CC9D0D100B024AF /* Controller */,
+				CC24F5E71CC9D0D100B024AF /* Model */,
+				CC24F5E81CC9D0D100B024AF /* View */,
+			);
+			path = "搭配";
+			sourceTree = "<group>";
+		};
+		CC24F5DE1CC9D0AB00B024AF /* 单品 */ = {
+			isa = PBXGroup;
+			children = (
+				CC24F5E91CC9D0D900B024AF /* Controller */,
+				CC24F5EA1CC9D0D900B024AF /* Model */,
+				CC24F5EB1CC9D0D900B024AF /* View */,
+			);
+			path = "单品";
+			sourceTree = "<group>";
+		};
+		CC24F5DF1CC9D0AB00B024AF /* 首页 */ = {
+			isa = PBXGroup;
+			children = (
+				CC24F5EC1CC9D0DF00B024AF /* Controller */,
+				CC24F5ED1CC9D0DF00B024AF /* Model */,
+				CC24F5EE1CC9D0DF00B024AF /* View */,
+			);
+			path = "首页";
+			sourceTree = "<group>";
+		};
+		CC24F5E01CC9D0AB00B024AF /* 我的 */ = {
+			isa = PBXGroup;
+			children = (
+				CC24F5EF1CC9D0ED00B024AF /* Controller */,
+				CC24F5F01CC9D0ED00B024AF /* Model */,
+				CC24F5F11CC9D0ED00B024AF /* View */,
+			);
+			path = "我的";
+			sourceTree = "<group>";
+		};
+		CC24F5E11CC9D0AB00B024AF /* 学堂 */ = {
+			isa = PBXGroup;
+			children = (
+				CC24F5F21CC9D0F300B024AF /* Controller */,
+				CC24F5F31CC9D0F300B024AF /* Model */,
+				CC24F5F41CC9D0F300B024AF /* View */,
+			);
+			path = "学堂";
+			sourceTree = "<group>";
+		};
+		CC24F5E61CC9D0D100B024AF /* Controller */ = {
+			isa = PBXGroup;
+			children = (
+				CC24F6071CC9D1BC00B024AF /* MatchViewController.h */,
+				CC24F6081CC9D1BC00B024AF /* MatchViewController.m */,
+			);
+			path = Controller;
+			sourceTree = "<group>";
+		};
+		CC24F5E71CC9D0D100B024AF /* Model */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Model;
+			sourceTree = "<group>";
+		};
+		CC24F5E81CC9D0D100B024AF /* View */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = View;
+			sourceTree = "<group>";
+		};
+		CC24F5E91CC9D0D900B024AF /* Controller */ = {
+			isa = PBXGroup;
+			children = (
+				CC24F6041CC9D18E00B024AF /* SingleViewController.h */,
+				CC24F6051CC9D18E00B024AF /* SingleViewController.m */,
+			);
+			path = Controller;
+			sourceTree = "<group>";
+		};
+		CC24F5EA1CC9D0D900B024AF /* Model */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Model;
+			sourceTree = "<group>";
+		};
+		CC24F5EB1CC9D0D900B024AF /* View */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = View;
+			sourceTree = "<group>";
+		};
+		CC24F5EC1CC9D0DF00B024AF /* Controller */ = {
+			isa = PBXGroup;
+			children = (
+				CC24F60A1CC9D1E500B024AF /* HomePageViewController.h */,
+				CC24F60B1CC9D1E500B024AF /* HomePageViewController.m */,
+			);
+			path = Controller;
+			sourceTree = "<group>";
+		};
+		CC24F5ED1CC9D0DF00B024AF /* Model */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Model;
+			sourceTree = "<group>";
+		};
+		CC24F5EE1CC9D0DF00B024AF /* View */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = View;
+			sourceTree = "<group>";
+		};
+		CC24F5EF1CC9D0ED00B024AF /* Controller */ = {
+			isa = PBXGroup;
+			children = (
+				CC24F60D1CC9D1F500B024AF /* MineViewController.h */,
+				CC24F60E1CC9D1F500B024AF /* MineViewController.m */,
+			);
+			path = Controller;
+			sourceTree = "<group>";
+		};
+		CC24F5F01CC9D0ED00B024AF /* Model */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Model;
+			sourceTree = "<group>";
+		};
+		CC24F5F11CC9D0ED00B024AF /* View */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = View;
+			sourceTree = "<group>";
+		};
+		CC24F5F21CC9D0F300B024AF /* Controller */ = {
+			isa = PBXGroup;
+			children = (
+				CC24F6101CC9D20400B024AF /* SchoolViewController.h */,
+				CC24F6111CC9D20400B024AF /* SchoolViewController.m */,
+			);
+			path = Controller;
+			sourceTree = "<group>";
+		};
+		CC24F5F31CC9D0F300B024AF /* Model */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Model;
+			sourceTree = "<group>";
+		};
+		CC24F5F41CC9D0F300B024AF /* View */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = View;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		CC24F5871CC9CA0500B024AF /* iDressing */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = CC24F59F1CC9CA0500B024AF /* Build configuration list for PBXNativeTarget "iDressing" */;
+			buildPhases = (
+				CC24F5841CC9CA0500B024AF /* Sources */,
+				CC24F5851CC9CA0500B024AF /* Frameworks */,
+				CC24F5861CC9CA0500B024AF /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = iDressing;
+			productName = iDressing;
+			productReference = CC24F5881CC9CA0500B024AF /* iDressing.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		CC24F5801CC9CA0500B024AF /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0720;
+				ORGANIZATIONNAME = Mag1cPanda;
+				TargetAttributes = {
+					CC24F5871CC9CA0500B024AF = {
+						CreatedOnToolsVersion = 7.2.1;
+					};
+				};
+			};
+			buildConfigurationList = CC24F5831CC9CA0500B024AF /* Build configuration list for PBXProject "iDressing" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = CC24F57F1CC9CA0500B024AF;
+			productRefGroup = CC24F5891CC9CA0500B024AF /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				CC24F5871CC9CA0500B024AF /* iDressing */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		CC24F5861CC9CA0500B024AF /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				CC24F59B1CC9CA0500B024AF /* LaunchScreen.storyboard in Resources */,
+				CC24F5981CC9CA0500B024AF /* Assets.xcassets in Resources */,
+				CC24F5961CC9CA0500B024AF /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		CC24F5841CC9CA0500B024AF /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				CC24F5DC1CC9CB9100B024AF /* RAMItemAnimationProtocol.swift in Sources */,
+				CC24F6061CC9D18E00B024AF /* SingleViewController.m in Sources */,
+				CC24F60C1CC9D1E500B024AF /* HomePageViewController.m in Sources */,
+				CC24F6121CC9D20400B024AF /* SchoolViewController.m in Sources */,
+				CC24F5DA1CC9CB9100B024AF /* RAMAnimatedTabBarController.swift in Sources */,
+				CC24F5901CC9CA0500B024AF /* AppDelegate.m in Sources */,
+				CC24F58D1CC9CA0500B024AF /* main.m in Sources */,
+				CC24F5D91CC9CB9100B024AF /* RAMTransitionItemAnimations.swift in Sources */,
+				CC24F6091CC9D1BC00B024AF /* MatchViewController.m in Sources */,
+				CC24F5D81CC9CB9100B024AF /* RAMRotationAnimation.swift in Sources */,
+				CC24F5DB1CC9CB9100B024AF /* RAMBadge.swift in Sources */,
+				CC24F5D61CC9CB9100B024AF /* RAMFrameItemAnimation.swift in Sources */,
+				CC24F60F1CC9D1F500B024AF /* MineViewController.m in Sources */,
+				CC24F5D71CC9CB9100B024AF /* RAMFumeAnimation.swift in Sources */,
+				CC24F5D51CC9CB9100B024AF /* RAMBounceAnimation.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXVariantGroup section */
+		CC24F5941CC9CA0500B024AF /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				CC24F5951CC9CA0500B024AF /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		CC24F5991CC9CA0500B024AF /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				CC24F59A1CC9CA0500B024AF /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		CC24F59D1CC9CA0500B024AF /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.2;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		CC24F59E1CC9CA0500B024AF /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.2;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		CC24F5A01CC9CA0500B024AF /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = iDressing/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.Mag1cPanda.iDressing;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Debug;
+		};
+		CC24F5A11CC9CA0500B024AF /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = iDressing/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.Mag1cPanda.iDressing;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		CC24F5831CC9CA0500B024AF /* Build configuration list for PBXProject "iDressing" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				CC24F59D1CC9CA0500B024AF /* Debug */,
+				CC24F59E1CC9CA0500B024AF /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		CC24F59F1CC9CA0500B024AF /* Build configuration list for PBXNativeTarget "iDressing" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				CC24F5A01CC9CA0500B024AF /* Debug */,
+				CC24F5A11CC9CA0500B024AF /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = CC24F5801CC9CA0500B024AF /* Project object */;
+}
